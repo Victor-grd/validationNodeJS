@@ -1,0 +1,45 @@
+body{
+    padding:50px;
+    font-family: 'Roboto', sans-serif;
+    background: rgb(241, 239, 239)
+}
+a{color:#00B7FF}
+.addForm{
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    width: 25vw;
+    margin-right: 20px;
+}
+
+.divGare{
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    width: 25vw;
+    margin-right: 20px;
+}
+.gares{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    background: white;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    border: 1px solid lightgrey;
+    margin-right: 20px;
+    width: 20%;
+    height: 30px;
+    font-size: 0.8rem;
+}
+.input{
+    background: white;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    border: 1px solid lightgrey;
+    margin-right: 20px;
+    width: 40%;
+    height: 30px;
+    font-size: 0.8rem;
+}

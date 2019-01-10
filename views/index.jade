@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  .gares
+    .addForm
+      h3 ajouter une gare:
+      form(action="/api/" method="POST" id="addGare" class="addgare")
+          input(type="text" placeholder="Title" name="title" id="title" class="form-control" class="input")
+          button(type="submit" class="btn btn-primary buttons query-btn") Add
+    each gare in gares
+      .divGare
+        .headerGare
+          .title
+            h2= gare.nom
+        .buttons
+          input(type='submit', value='update', class='update btn', data-id="#{gare._id}",)
+          input(type='submit', value='delete', class='delete btn', data-id="#{gare._id}", data-method="DELETE")
